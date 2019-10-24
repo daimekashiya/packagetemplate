@@ -1,6 +1,6 @@
 <?php
 
-namespace ehekks\packagetemplate\providers;
+namespace daimekashiya\packagetemplate\providers;
 
 use Illuminate\Support\ServiceProvider;
 

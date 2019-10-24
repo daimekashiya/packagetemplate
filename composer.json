@@ -1,5 +1,5 @@
 {
-    "name": "ehekks/packagetemplate",
+    "name": "daimekashiya/packagetemplate",
     "description": "Eheks Sample Plugin",
     "type": "library",
     "require": {
@@ -23,14 +23,14 @@
 
     "autoload": {
         "psr-4": {
-            "ehekks\\packagetemplate\\": "src/"
+            "daimekashiya\\packagetemplate\\": "src/"
         }
     },
 
     "extra":{
         "laravel":{
             "providers":[
-                "ehekks\\packagetemplate\\providers\\CoreProvider"
+                "daimekashiya\\packagetemplate\\providers\\CoreProvider"
             ]
         }
     }

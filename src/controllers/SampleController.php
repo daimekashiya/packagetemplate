@@ -1,6 +1,6 @@
 <?php 
 
-namespace ehekks\packagetemplate\controllers;
+namespace daimekashiya\packagetemplate\controllers;
 
 use App\Http\Controllers\Controller;
 
