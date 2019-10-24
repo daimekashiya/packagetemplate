@@ -1,10 +1,13 @@
 <?php 
 
 
-Route::group([ 'namespace'=>'daimekashiya\blanktemplate\controllers',  'middleware' => 'web' ], function(){
+Route::group([ 'namespace'=>'daimekashiya\packagetemplate\Http\Controllers',  'middleware' => 'web' ], function(){
 
 	Route::prefix('packagetemplate')->group(function () {
-	    Route::get('/', 'SampleController@index');
+	    Route::get('/', 'CoreController@index');
+
 	});
 
 });
+
+

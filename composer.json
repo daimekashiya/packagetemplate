@@ -1,22 +1,16 @@
 {
     "name": "daimekashiya/packagetemplate",
-    "description": "Eheks Sample Plugin",
+    "description": "Simple Package Template",
     "type": "library",
     "require": {
-        
-    },
-
-    "require-dev": {
 
     },
-
     "license": "MIT",
     "authors": [
         {
             "name": "Akashah Ahamad",
             "email": "ibn.ahamad@live.com"
         }
-
 
     ],
     "minimum-stability": "dev",
@@ -25,14 +19,5 @@
         "psr-4": {
             "daimekashiya\\packagetemplate\\": "src/"
         }
-    },
-
-    "extra":{
-        "laravel":{
-            "providers":[
-                "daimekashiya\\packagetemplate\\providers\\CoreProvider"
-            ]
-        }
     }
-
 }
