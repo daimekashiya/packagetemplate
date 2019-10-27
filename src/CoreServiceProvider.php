@@ -15,6 +15,7 @@ class CoreServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/config/packagetemplate.php'=>config_path('packagetemplate.php'),
+            // __DIR__.'/config/packagetemplate.php'=>config_path('packagetemplate2.php'),
         ]);
     }
 

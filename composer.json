@@ -16,5 +16,13 @@
         "psr-4": {
             "daimekashiya\\packagetemplate\\" : "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "daimekashiya\\packagetemplate\\CoreServiceProvider"
+            ]
+        }
     }
+
 }
