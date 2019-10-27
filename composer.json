@@ -1,23 +1,20 @@
 {
     "name": "daimekashiya/packagetemplate",
-    "description": "Simple Package Template",
+    "description": "Laravel Template Package",
     "type": "library",
-    "require": {
-
-    },
     "license": "MIT",
     "authors": [
         {
-            "name": "Akashah Ahamad",
-            "email": "ibn.ahamad@live.com"
+            "name": "Daimekashiya",
+            "email": "ibn.ahamad@gmail.com"
         }
-
     ],
     "minimum-stability": "dev",
+    "require": {},
 
     "autoload": {
         "psr-4": {
-            "daimekashiya\\packagetemplate\\": "src/"
+            "daimekashiya\\packagetemplate\\" : "src/"
         }
     }
 }
